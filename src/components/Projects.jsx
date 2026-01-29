@@ -1,8 +1,11 @@
 import { FiCode } from "react-icons/fi"
-import { FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiVercel } from "react-icons/si";
-import Billwise from '../assets/billwise.png'
-import Reveal from "./Reveal"
+import { FaReact, FaGithub } from "react-icons/fa";
+import { SiTailwindcss, SiVercel, SiTypescript, SiNextdotjs } from "react-icons/si";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+import Billwise from '../assets/BillWise.png'
+import QuizBee from '../assets/QuizBee.png'
+import Fitflow from "../assets/Fitflow.png"
+import Zapless from '../assets/Zapless.png'
 
 export default function Projects() {
   return (
@@ -13,8 +16,11 @@ export default function Projects() {
       </div>
       <div className="my-8 h-px w-full bg-linear-to-r from-transparent via-blue-600/50 to-transparent " />
 
-      <div className="grid grid-rows-[2fr_1fr] overflow-hidden rounded-2xl">
-        <div className="bg-blue-500 ">
+      <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+
+        {/* Project 01 */}
+        <div className="grid grid-rows-[auto_1fr] overflow-hidden rounded-2xl border border-blue-600/50 transition-all duration-200 ease-out hover:-translate-y-1">
+        <div>
           <img 
             src={Billwise} 
             alt="Billwise dashoard img" 
@@ -22,23 +28,235 @@ export default function Projects() {
           />
         </div>
         <div className="bg-black rounded-b-2xl">
-          <div className="px-8 py-5">
-            <div className="flex justify-between">
+          <div className="px-8 py-6">
+            <div className="flex justify-between items-center">
             <h1 className="text-2xl font-bold">Billwise</h1>
             <div className="flex gap-2">
-              <FaReact className="text-[#61DAFB] text-3xl"/>
-              <SiTailwindcss className="text-[#38BDF8] text-3xl"/>
-              <SiVercel className="text-white bg-black rounded-full px-2 text-3xl"/>
+              <FaReact className="text-[#61DAFB] text-2xl"/>
+              <SiTailwindcss className="text-[#38BDF8] text-2xl"/>
+              <SiVercel className="text-white bg-black rounded-full px-2 text-2xl"/>
             </div>
           </div> 
 
-           <p className="mt-2">BillWise is a modern subscription management application designed to simplify tracking of recurring expenses. Built with React and Tailwind CSS, it features a clean, responsive UI, smooth state handling, and reusable...</p>
+           <p 
+            className="py-4">
+              BillWise is a modern subscription management 
+              application designed to simplify tracking of 
+              recurring expenses. Built with React and Tailwind 
+              CSS, it features a clean, responsive UI, smooth 
+              state handling...
+          </p>
+          
+          <div className="flex gap-5 items-center">
+            <div className=" text-blue-600 hover:text-blue-800 hover:cursor-pointer">
+              <a 
+                href="https://bill-wise1.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2">
+                <FaArrowUpRightFromSquare className="text-sm"/>
+                <span>Live Demo</span>
+              </a>
+              
+            </div>
 
-
+            <div className="text-gray-400 hover:text-gray-300 hover:cursor-pointer">
+            <a 
+                href="https://github.com/itsgauravkumar07/BillWise" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2">
+                <FaGithub />
+                <span>Github</span>
+            </a>
+              
+            </div>
+          </div>
         </div>
           </div>
           
+        </div>
+
+        {/* Project 02 */}
+        <div className="grid grid-rows-[auto_1fr] overflow-hidden rounded-2xl border border-blue-600/50 transition-all duration-200 ease-out hover:-translate-y-1">
+        <div>
+          <img 
+            src={QuizBee} 
+            alt="QuizBee img" 
+            className="rounded-t-2xl h-70"
+          />
+        </div>
+        <div className="bg-black rounded-b-2xl">
+          <div className="px-8 py-6">
+            <div className="flex justify-between items-center">
+            <h1 className="text-2xl font-bold">QuizBee</h1>
+            <div className="flex gap-2">
+              <FaReact className="text-[#61DAFB] text-2xl"/>
+              <SiTailwindcss className="text-[#38BDF8] text-2xl"/>
+              <SiVercel className="text-white bg-black rounded-full px-2 text-2xl"/>
+            </div>
+          </div> 
+
+           <p 
+            className="py-4">
+              QuizBee is an engaging, interactive quiz application
+              built with React and Tailwind CSS that lets 
+              users test their knowledge across a variety 
+              of categories. The app features a dynamic quiz 
+              flow with real-time...
+          </p>
+          
+          <div className="flex gap-5 items-center">
+            <div className=" text-blue-600 hover:text-blue-800 hover:cursor-pointer">
+              <a 
+                href="https://quiz-bee-1.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2">
+                <FaArrowUpRightFromSquare className="text-sm"/>
+                <span>Live Demo</span>
+              </a>
+              
+            </div>
+
+            <div className="text-gray-400 hover:text-gray-300 hover:cursor-pointer">
+            <a 
+                href="https://github.com/itsgauravkumar07/QuizBee" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2">
+                <FaGithub />
+                <span>Github</span>
+            </a>
+              
+            </div>
+          </div>
+        </div>
+          </div>
+          
+        </div>
+
+        {/* Project 03 */}
+       <div className="grid grid-rows-[auto_1fr] overflow-hidden rounded-2xl border border-blue-600/50 transition-all duration-200 ease-out hover:-translate-y-1">
+        <div>
+          <img 
+            src={Fitflow} 
+            alt="FitFlow img" 
+            className="rounded-t-2xl h-70"
+          />
+        </div>
+        <div className="bg-black rounded-b-2xl">
+          <div className="px-8 py-6">
+            <div className="flex justify-between items-center">
+            <h1 className="text-2xl font-bold">FitFlow</h1>
+            <div className="flex gap-2">
+              <SiNextdotjs className="text-white text-2xl"/>
+              <SiTypescript className="text-2xl text-blue-600"/>
+              <SiTailwindcss className="text-[#38BDF8] text-2xl"/>
+              <SiVercel className="text-white bg-black rounded-full px-2 text-2xl"/>
+            </div>
+          </div> 
+
+           <p 
+            className="py-4">
+              FitFlow is a modern, responsive landing page 
+              built to showcase a fitness coaching service. 
+              It combines clean design, structured content, 
+              and interactive UI sections to help fitness 
+              professionals...
+          </p>
+          
+          <div className="flex gap-5 items-center">
+            <div className=" text-blue-600 hover:text-blue-800 hover:cursor-pointer">
+              <a 
+                href="https://github.com/itsgauravkumar07/FitFlow-landing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2">
+                <FaArrowUpRightFromSquare className="text-sm"/>
+                <span>Live Demo</span>
+              </a>
+              
+            </div>
+
+            <div className="text-gray-400 hover:text-gray-300 hover:cursor-pointer">
+            <a 
+                href="https://fit-flow-landing-ten.vercel.app/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2">
+                <FaGithub />
+                <span>Github</span>
+            </a>
+              
+            </div>
+          </div>
+        </div>
+          </div>
+          
+        </div>
+
+        {/* Project 04 */}
+       <div className="grid grid-rows-[auto_1fr] overflow-hidden rounded-2xl border border-blue-600/50 transition-all duration-200 ease-out hover:-translate-y-1">
+        <div>
+          <img 
+            src={Zapless} 
+            alt="Zapless img" 
+            className="rounded-t-2xl h-70"
+          />
+        </div>
+        <div className="bg-black rounded-b-2xl">
+          <div className="px-8 py-6">
+            <div className="flex justify-between items-center">
+            <h1 className="text-2xl font-bold">Zapless</h1>
+            <div className="flex gap-2">
+              <FaReact className="text-[#61DAFB] text-2xl"/>
+              <SiTailwindcss className="text-[#38BDF8] text-2xl"/>
+              <SiVercel className="text-white bg-black rounded-full px-2 text-2xl"/>
+            </div>
+          </div> 
+
+           <p 
+            className="py-4">
+              The Zapless landing page is a modern, 
+              conversion-focused interface designed to 
+              clearly communicate the value of instant lead 
+              magnet delivery. Built with React and Tailwind
+              CSS, it emphasizes...
+          </p>
+          
+          <div className="flex gap-5 items-center">
+            <div className=" text-blue-600 hover:text-blue-800 hover:cursor-pointer">
+              <a 
+                href="https://www.zapless.site/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2">
+                <FaArrowUpRightFromSquare className="text-sm"/>
+                <span>Live Demo</span>
+              </a>
+              
+            </div>
+
+            <div className="text-gray-400 hover:text-gray-300 hover:cursor-pointer">
+            <a 
+                href="https://github.com/itsgauravkumar07/zapless-landing-page" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2">
+                <FaGithub />
+                <span>Github</span>
+            </a>
+              
+            </div>
+          </div>
+        </div>
+          </div>
+          
+        </div>
+
       </div>
+     
     </section>
   )
 }
