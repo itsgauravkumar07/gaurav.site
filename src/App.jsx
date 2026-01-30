@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import About from "./components/About"
 import Skills from "./components/Skills"
+import Github from "./components/Github"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
@@ -15,9 +16,10 @@ export default function App() {
         <Hero />
         <Skills />
         <Projects />
+        <Github />
         <Contact />
-        <Footer />
       </div>
+       <Footer />
     </div>
   )
 }
