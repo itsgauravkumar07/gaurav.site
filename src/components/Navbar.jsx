@@ -2,7 +2,7 @@ import { FiHome, FiFolder, FiMail } from "react-icons/fi"
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 w-full z-50 backdrop-blur bg-slate-950/70 border-b border-slate-800">
+    <nav className="fixed top-0 w-full z-50 backdrop-blur">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <span className="font-semibold tracking-wide">
           Gaurav.dev

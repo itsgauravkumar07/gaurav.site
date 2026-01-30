@@ -2,14 +2,14 @@ import { FiCode } from "react-icons/fi"
 import { FaReact, FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiVercel, SiTypescript, SiNextdotjs } from "react-icons/si";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
-import Billwise from '../assets/BillWise.png'
+import BillWise from '../assets/BillWise.png'
 import QuizBee from '../assets/QuizBee.png'
 import Fitflow from "../assets/Fitflow.png"
 import Zapless from '../assets/Zapless.png'
 
 export default function Projects() {
   return (
-    <section id="projects" className="max-w-6xl mx-auto px-6 py-24">
+    <section id="projects" className="max-w-6xl mx-auto px-6 pt-18">
       <div className="flex gap-4 items-center">
         <span className="bg-blue-500/20 px-2 py-2 rounded-lg border-blue-600/50 border"><FiCode className="text-2xl text-blue-500"/></span>
         <span className="text-4xl font-bold bg-linear-to-r from-white bg-white to-blue-600/50 bg-clip-text text-transparent py-1">Featured Projects</span>
@@ -22,7 +22,7 @@ export default function Projects() {
         <div className="grid grid-rows-[auto_1fr] overflow-hidden rounded-2xl border border-blue-600/50 transition-transform duration-400 ease-out hover:scale-101">
         <div>
           <img 
-            src={Billwise} 
+            src={BillWise} 
             alt="Billwise dashoard img" 
             className="rounded-t-2xl h-70 md:h-60 lg:h-60"
           />

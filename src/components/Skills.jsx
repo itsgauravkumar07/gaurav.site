@@ -16,7 +16,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section className="max-w-6xl mx-auto px-6 py-24">
+    <section className="max-w-6xl mx-auto px-6 pt-18">
       <div className="px-2 py-2 flex  flex-col">
                <div className="flex gap-4 items-center">
                    <span className="bg-blue-500/20 px-2 py-2 rounded-lg border-blue-600/50 border"><FaReact className="text-2xl text-blue-500"/></span>

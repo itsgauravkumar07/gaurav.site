@@ -5,7 +5,7 @@ import profile from '../assets/Profile.jpg'
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6">
+    <section className="min-h-screen flex items-center justify-center px-6 mt-10">
       <div className="grid md:grid-cols-[1fr_3fr] lg:grid-cols-[1fr_3fr] md:gap-10 lg:gap-10 place-items-center gap-6 ">
           <div className="flex items-center flex-col gap-4 text-gray-300">
           <img 
@@ -30,7 +30,14 @@ export default function Hero() {
 
           <p className="text-lg text-center text-gray-400 md:text-start lg:text-start">Frontend Developer | React.js, Next.js, Tailwindcss</p>
 
-          <p className="text-center md:text-start lg:text-start text-lg leading-relaxed"> Frontend developer specializing in React, open-source contributions, and production-grade web applications. Focused on clean architecture, scalable UI systems, and building software that holds up in real-world use. Driven by a product mindset that balances usability, performance, and long-term scalability.</p>
+          <p 
+            className="text-center md:text-start lg:text-start text-lg leading-relaxed">
+              Frontend developer specializing in React, open-source contributions, 
+              and production-grade web applications. Focused on clean architecture, 
+              scalable UI systems, and building software that holds up in real-world 
+              use. Driven by a product mindset that balances usability, performance, 
+              and long-term scalability.
+          </p>
         </div>
       </div>
       
