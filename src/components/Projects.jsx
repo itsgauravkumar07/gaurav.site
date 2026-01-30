@@ -9,7 +9,7 @@ import Zapless from '../assets/Zapless.png'
 
 export default function Projects() {
   return (
-    <section id="projects" className="max-w-6xl mx-auto px-6 py-5">
+    <section id="projects" className="max-w-6xl mx-auto px-6 py-24">
       <div className="flex gap-4 items-center">
         <span className="bg-blue-500/20 px-2 py-2 rounded-lg border-blue-600/50 border"><FiCode className="text-2xl text-blue-500"/></span>
         <span className="text-4xl font-bold bg-linear-to-r from-white bg-white to-blue-600/50 bg-clip-text text-transparent py-1">Featured Projects</span>
@@ -19,12 +19,12 @@ export default function Projects() {
       <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
 
         {/* Project 01 */}
-        <div className="grid grid-rows-[auto_1fr] overflow-hidden rounded-2xl border border-blue-600/50 transition-all duration-200 ease-out hover:-translate-y-1">
+        <div className="grid grid-rows-[auto_1fr] overflow-hidden rounded-2xl border border-blue-600/50 transition-transform duration-400 ease-out hover:scale-101">
         <div>
           <img 
             src={Billwise} 
             alt="Billwise dashoard img" 
-            className="rounded-t-2xl h-70"
+            className="rounded-t-2xl h-70 md:h-60 lg:h-60"
           />
         </div>
         <div className="bg-black rounded-b-2xl">
@@ -78,12 +78,12 @@ export default function Projects() {
         </div>
 
         {/* Project 02 */}
-        <div className="grid grid-rows-[auto_1fr] overflow-hidden rounded-2xl border border-blue-600/50 transition-all duration-200 ease-out hover:-translate-y-1">
+        <div className="grid grid-rows-[auto_1fr] overflow-hidden rounded-2xl border border-blue-600/50 transition-transform duration-400 ease-out hover:scale-101">
         <div>
           <img 
             src={QuizBee} 
             alt="QuizBee img" 
-            className="rounded-t-2xl h-70"
+            className="rounded-t-2xl h-70 md:h-60 lg:h-60"
           />
         </div>
         <div className="bg-black rounded-b-2xl">
@@ -137,12 +137,12 @@ export default function Projects() {
         </div>
 
         {/* Project 03 */}
-       <div className="grid grid-rows-[auto_1fr] overflow-hidden rounded-2xl border border-blue-600/50 transition-all duration-200 ease-out hover:-translate-y-1">
+       <div className="grid grid-rows-[auto_1fr] overflow-hidden rounded-2xl border border-blue-600/50 transition-transform duration-400 ease-out hover:scale-101">
         <div>
           <img 
             src={Fitflow} 
             alt="FitFlow img" 
-            className="rounded-t-2xl h-70"
+            className="rounded-t-2xl h-70 md:h-60 lg:h-60"
           />
         </div>
         <div className="bg-black rounded-b-2xl">
@@ -197,12 +197,12 @@ export default function Projects() {
         </div>
 
         {/* Project 04 */}
-       <div className="grid grid-rows-[auto_1fr] overflow-hidden rounded-2xl border border-blue-600/50 transition-all duration-200 ease-out hover:-translate-y-1">
+       <div className="grid grid-rows-[auto_1fr] overflow-hidden rounded-2xl border border-blue-600/50 transition-transform duration-400 ease-out hover:scale-101">
         <div>
           <img 
             src={Zapless} 
             alt="Zapless img" 
-            className="rounded-t-2xl h-70"
+            className="rounded-t-2xl h-70 md:h-60 lg:h-60"
           />
         </div>
         <div className="bg-black rounded-b-2xl">

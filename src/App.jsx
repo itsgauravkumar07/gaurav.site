@@ -7,18 +7,14 @@ import Contact from "./components/Contact"
 
 export default function App() {
   return (
-    <div
-      className="
-        min-h-screen text-slate-100
-        bg-gradient-to-br
-        from-indigo-950 via-slate-900 to-purple-950
-      "
-    >
-      <Navbar />
-      <Hero />
-      <Skills />
-      <Projects />
-      <Contact />
+    <div className="min-h-screen text-slate-100 bg-black">
+      <div className="max-w-5xl mx-auto md:px-5">
+        <Navbar />
+        <Hero />
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
     </div>
   )
 }
