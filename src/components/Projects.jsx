@@ -2,7 +2,7 @@ import { FiCode } from "react-icons/fi"
 import { FaReact, FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiVercel, SiTypescript, SiNextdotjs } from "react-icons/si";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
-import BillWise from '../assets/BillWise.png'
+//import BillWise from '../assets/BillWise.png'
 import QuizBee from '../assets/QuizBee.png'
 import Fitflow from "../assets/Fitflow.png"
 import Zapless from '../assets/Zapless.png'
@@ -22,7 +22,7 @@ export default function Projects() {
         <div className="grid grid-rows-[auto_1fr] overflow-hidden rounded-2xl border border-blue-600/50 transition-transform duration-400 ease-out hover:scale-101">
         <div>
           <img 
-            src={BillWise} 
+            src={QuizBee} 
             alt="Billwise dashoard img" 
             className="rounded-t-2xl h-70 md:h-60 lg:h-60"
           />
