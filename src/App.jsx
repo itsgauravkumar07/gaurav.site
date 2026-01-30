@@ -4,16 +4,19 @@ import About from "./components/About"
 import Skills from "./components/Skills"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 export default function App() {
   return (
     <div className="min-h-screen text-slate-100 bg-black">
-      <div className="max-w-5xl mx-auto md:px-5">
-        <Navbar />
+      <Navbar />
+      <div className="max-w-5xl mx-auto px-5">
+        
         <Hero />
         <Skills />
         <Projects />
         <Contact />
+        <Footer />
       </div>
     </div>
   )
