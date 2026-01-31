@@ -18,6 +18,7 @@ export default function Navbar() {
           <a href="#skills" className="hover:text-blue-500 transition">Skills</a>
           <a href="#projects" className="hover:text-blue-500 transition">Projects</a>
           <a href="#contact" className="hover:text-blue-500 transition">Contact</a>
+          <a href="https://drive.google.com/file/d/1ScwDtAvgdWjgI4wbOq-SNwQzupOsPwyl/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -53,6 +54,12 @@ export default function Navbar() {
               className="hover:text-blue-500 transition"
             >
               Contact
+            </a>
+            <a 
+              href="https://drive.google.com/file/d/1ScwDtAvgdWjgI4wbOq-SNwQzupOsPwyl/view?usp=drive_link" 
+              target="_blank" 
+              rel="noopener noreferrer">
+                Resume
             </a>
           </div>
         </div>
