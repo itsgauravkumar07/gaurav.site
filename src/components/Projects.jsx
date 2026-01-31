@@ -2,7 +2,7 @@ import { FiCode } from "react-icons/fi"
 import { FaReact, FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiVercel, SiTypescript, SiNextdotjs } from "react-icons/si";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
-//import BillWise from '../assets/BillWise.png'
+import BillWise from '../assets/BillWise.png'
 import QuizBee from '../assets/QuizBee.png'
 import Fitflow from "../assets/Fitflow.png"
 import Zapless from '../assets/Zapless.png'
@@ -26,7 +26,7 @@ export default function Projects() {
               hover:-translate-y-1 hover:shadow-xl">
         <div className="overflow-hidden">
           <img 
-            src={QuizBee} 
+            src={BillWise} 
             alt="Billwise dashoard img" 
             className="
               w-full object-cover
@@ -51,7 +51,7 @@ export default function Projects() {
           <p className="py-4 leading-relaxed md:hidden">
               BillWise is a modern subscription management 
               application designed to simplify tracking of 
-              recurring expenses...
+              recurring...
           </p>
            <p className="py-4 hidden md:block leading-relaxed">
               BillWise is a modern subscription management 
@@ -92,12 +92,22 @@ export default function Projects() {
         </div>
 
         {/* Project 02 */}
-        <div className="grid grid-rows-[auto_1fr] overflow-hidden rounded-2xl border border-blue-600/50 transition-transform duration-400 ease-out hover:scale-101">
-        <div>
+        <div className=" 
+              group overflow-hidden rounded-2xl
+              border border-blue-600/50
+              transition-all duration-300 ease-out
+              hover:-translate-y-1 hover:shadow-xl">
+        <div className="overflow-hidden">
           <img 
             src={QuizBee} 
-            alt="QuizBee img" 
-            className="rounded-t-2xl h-70 md:h-60 lg:h-60"
+            alt="Project img" 
+            className="
+              w-full object-cover
+              aspect-video[16/9]
+              md:aspect-auto md:h-56
+              transition-transform duration-300 ease-out
+              group-hover:scale-105
+            "
           />
         </div>
         <div className="bg-black rounded-b-2xl">
@@ -111,8 +121,13 @@ export default function Projects() {
             </div>
           </div> 
 
+          <p className="py-4 leading-relaxed md:hidden">
+              QuizBee is an engaging, interactive quiz application
+              built with React and Tailwind CSS that lets 
+              users...
+          </p>
            <p 
-            className="py-4">
+            className="py-4 hidden md:block leading-relaxed">
               QuizBee is an engaging, interactive quiz application
               built with React and Tailwind CSS that lets 
               users test their knowledge across a variety 
@@ -151,12 +166,22 @@ export default function Projects() {
         </div>
 
         {/* Project 03 */}
-       <div className="grid grid-rows-[auto_1fr] overflow-hidden rounded-2xl border border-blue-600/50 transition-transform duration-400 ease-out hover:scale-101">
-        <div>
+      <div className=" 
+              group overflow-hidden rounded-2xl
+              border border-blue-600/50
+              transition-all duration-300 ease-out
+              hover:-translate-y-1 hover:shadow-xl">
+        <div className="overflow-hidden">
           <img 
             src={Fitflow} 
-            alt="FitFlow img" 
-            className="rounded-t-2xl h-70 md:h-60 lg:h-60"
+            alt="Project img" 
+            className="
+              w-full object-cover
+              aspect-video[16/9]
+              md:aspect-auto md:h-56
+              transition-transform duration-300 ease-out
+              group-hover:scale-105
+            "
           />
         </div>
         <div className="bg-black rounded-b-2xl">
@@ -171,8 +196,13 @@ export default function Projects() {
             </div>
           </div> 
 
+            <p className="py-4 leading-relaxed md:hidden">
+              FitFlow is a modern, responsive landing page 
+              built to showcase a fitness coaching service. 
+              It combines...
+          </p>
            <p 
-            className="py-4">
+            className="py-4 hidden md:block leading-relaxed">
               FitFlow is a modern, responsive landing page 
               built to showcase a fitness coaching service. 
               It combines clean design, structured content, 
@@ -211,12 +241,22 @@ export default function Projects() {
         </div>
 
         {/* Project 04 */}
-       <div className="grid grid-rows-[auto_1fr] overflow-hidden rounded-2xl border border-blue-600/50 transition-transform duration-400 ease-out hover:scale-101">
-        <div>
+       <div className=" 
+              group overflow-hidden rounded-2xl
+              border border-blue-600/50
+              transition-all duration-300 ease-out
+              hover:-translate-y-1 hover:shadow-xl">
+        <div className="overflow-hidden">
           <img 
             src={Zapless} 
-            alt="Zapless img" 
-            className="rounded-t-2xl h-70 md:h-60 lg:h-60"
+            alt="Project img" 
+            className="
+              w-full object-cover
+              aspect-video[16/9]
+              md:aspect-auto md:h-56
+              transition-transform duration-300 ease-out
+              group-hover:scale-105
+            "
           />
         </div>
         <div className="bg-black rounded-b-2xl">
@@ -230,8 +270,13 @@ export default function Projects() {
             </div>
           </div> 
 
+          <p className="py-4 leading-relaxed md:hidden">
+              The Zapless landing page is a modern, 
+              conversion-focused interface designed to 
+              clearly...
+          </p>
            <p 
-            className="py-4">
+            className="py-4 hidden md:block leading-relaxed">
               The Zapless landing page is a modern, 
               conversion-focused interface designed to 
               clearly communicate the value of instant lead 
