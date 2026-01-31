@@ -48,8 +48,12 @@ export default function Projects() {
             </div>
           </div> 
 
-           <p 
-            className="py-4">
+          <p className="py-4 leading-relaxed md:hidden">
+              BillWise is a modern subscription management 
+              application designed to simplify tracking of 
+              recurring expenses...
+          </p>
+           <p className="py-4 hidden md:block leading-relaxed">
               BillWise is a modern subscription management 
               application designed to simplify tracking of 
               recurring expenses. Built with React and Tailwind 
