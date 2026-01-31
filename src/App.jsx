@@ -11,7 +11,7 @@ export default function App() {
   return (
     <div className="min-h-screen text-slate-100 bg-black">
       <Navbar />
-      <div className="max-w-5xl mx-auto px-5">
+      <div className="w-full md:max-w-5xl mx-auto px-5 ">
         
         <Hero />
         <Skills />
