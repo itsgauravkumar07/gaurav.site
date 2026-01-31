@@ -25,9 +25,27 @@ export default function Hero() {
       </p>
 
       <div className="flex gap-6 text-3xl">
-        <FaGithub className="text-white hover:text-gray-400 transition-colors" />
-        <FaLinkedin className="text-[#0A66C2] hover:text-[#0558b1] transition-colors" />
-        <FaXTwitter className="bg-white text-black rounded-md px-1 hover:bg-gray-300 transition-colors" />
+        <a 
+          href="https://github.com/itsgauravkumar07" 
+          target="_blank" 
+          rel="noopener noreferrer">
+            <FaGithub className="text-white hover:text-gray-400 transition-colors" />
+          </a>
+        
+        <a 
+          href="https://www.linkedin.com/in/itsgaurav-kumar/" 
+          target="_blank" 
+          rel="noopener noreferrer">
+          <FaLinkedin className="text-[#0A66C2] hover:text-[#0558b1] transition-colors" />
+        </a>
+        
+        <a 
+          href="https://x.com/1Itsgauravkumar" 
+          target="_blank" 
+          rel="noopener noreferrer">
+            <FaXTwitter className="bg-white text-black rounded-md px-1 hover:bg-gray-300 transition-colors" />
+          </a>
+        
       </div>
     </div>
 
