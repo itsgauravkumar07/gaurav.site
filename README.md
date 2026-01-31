@@ -50,7 +50,10 @@ src/
 
 ## How to Run
  
-- **Clone the repository** - https://github.com/itsgauravkumar07/gaurav.site
+- **Clone the repository** 
+```txt
+https://github.com/itsgauravkumar07/gaurav.site
+```
 -**Install dependencies** - npm install
 -**Start development server** - npm run dev
 -**Build for production** - npm run build
