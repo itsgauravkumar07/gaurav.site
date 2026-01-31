@@ -214,7 +214,7 @@ export default function Projects() {
           <div className="flex gap-5 items-center">
             <div className=" text-blue-600 hover:text-blue-800 hover:cursor-pointer">
               <a 
-                href="https://github.com/itsgauravkumar07/FitFlow-landing"
+                href="https://fit-flow-landing-ten.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2">
@@ -226,7 +226,7 @@ export default function Projects() {
 
             <div className="text-gray-400 hover:text-gray-300 hover:cursor-pointer">
             <a 
-                href="https://fit-flow-landing-ten.vercel.app/" 
+                href="https://github.com/itsgauravkumar07/FitFlow-landing" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2">
