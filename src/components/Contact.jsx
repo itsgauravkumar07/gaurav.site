@@ -4,7 +4,7 @@ import Reveal from "./Reveal"
 
 export default function Contact() {
   return (
-    <section id="contact" className="pt-18 text-center max-w-6xl mx-auto px-6 flex justify-center items-center">
+    <section id="contact" className="pt-25 text-center max-w-6xl mx-auto px-6 flex justify-center items-center">
        <div className="px-2 py-2 flex items-center justify-center flex-col max-w-3xl">
           <div className="flex gap-4 items-center">
               <span className="bg-blue-500/20 px-2 py-2 rounded-lg border-blue-600/50 border"><FaRocket className="text-2xl text-blue-500"/></span>
