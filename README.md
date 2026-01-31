@@ -54,9 +54,21 @@ src/
 ```txt
 https://github.com/itsgauravkumar07/gaurav.site
 ```
--**Install dependencies** - npm install
--**Start development server** - npm run dev
--**Build for production** - npm run build
+
+-**Install dependencies**
+```txt
+ npm install
+```
+
+-**Start development server**
+```txt
+ npm run dev
+```
+
+-**Build for production**
+```txt
+npm run build
+```
 
 ---
 
