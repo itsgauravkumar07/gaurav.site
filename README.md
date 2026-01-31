@@ -44,6 +44,7 @@ src/
 ├── App.jsx        # Root component
 ├── main.jsx       # Entry point
 └── index.css      # Global styles
+```txt
 
 ---
 
