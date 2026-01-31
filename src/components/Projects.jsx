@@ -9,7 +9,7 @@ import Zapless from '../assets/Zapless.png'
 
 export default function Projects() {
   return (
-    <section id="projects" className="max-w-6xl mx-auto px-6 pt-25">
+    <section id="projects" className="max-w-6xl mx-auto pt-25">
       <div className="flex gap-4 items-center">
         <span className="bg-blue-500/20 px-2 py-2 rounded-lg border-blue-600/50 border"><FiCode className="text-2xl text-blue-500"/></span>
         <span className="text-4xl font-bold bg-linear-to-r from-white bg-white to-blue-600/50 bg-clip-text text-transparent py-1">Featured Projects</span>

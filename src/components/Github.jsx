@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa";
 import { GitHubCalendar } from "react-github-calendar"
 export default function Github(){
     return(
-        <section className="max-w-5xl mx-auto px-6 pt-25">
+        <section className="max-w-5xl mx-auto  pt-25">
   {/* Heading (LEFT aligned) */}
   <div className="flex items-center gap-4">
     <span className="rounded-lg border border-blue-600/50 bg-blue-500/20 p-2">

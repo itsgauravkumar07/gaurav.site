@@ -5,7 +5,7 @@ import profile from '../assets/Profile.jpg'
 
 export default function Hero() {
   return (
-    <section className="flex items-center px-6 pt-25">
+    <section className="flex items-center bg-amber-500 pt-25">
   <div className="
     max-w-6xl mx-auto
     grid grid-cols-1 md:grid-cols-[1fr_3fr]
