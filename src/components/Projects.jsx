@@ -2,7 +2,7 @@ import { FiCode } from "react-icons/fi"
 import { FaReact, FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiVercel, SiTypescript, SiNextdotjs } from "react-icons/si";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
-import BillWise from '../assets/BillWise.png'
+import Billwise from '../assets/Billwise.png'
 import QuizBee from '../assets/QuizBee.png'
 import Fitflow from "../assets/Fitflow.png"
 import Zapless from '../assets/Zapless.png'
@@ -26,7 +26,7 @@ export default function Projects() {
               hover:-translate-y-1 hover:shadow-xl">
         <div className="overflow-hidden">
           <img 
-            src={BillWise} 
+            src={Billwise} 
             alt="Billwise dashoard img" 
             className="
               w-full object-cover
