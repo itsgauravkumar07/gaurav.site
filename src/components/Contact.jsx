@@ -12,7 +12,7 @@ export default function Contact() {
           </div>
           <div className="my-8 h-px w-full bg-linear-to-r from-transparent via-blue-600/50 to-transparent " />
 
-            <p className=" text-2xl md:hidden">
+            <p className=" text-lg md:hidden">
               I enjoy building scalable, user-focused software from idea to product.
           </p>
             <p 
