@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className="w-full fixed top-0 z-50 backdrop-blur">
       {/* Navbar container */}
-      <div className="mx-auto px-10 h-16 flex items-center justify-between">
+      <div className="mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <div className="text-xl font-bold">
           Gaurav.site
