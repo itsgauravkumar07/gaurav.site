@@ -3,7 +3,7 @@ import { FaReact, FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiVercel, SiTypescript, SiNextdotjs } from "react-icons/si";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import Billwise from "../assets/billwise.png";
-import QuizBee from "../assets/QuizBee.png";
+import Internal from "../assets/internal.png"
 import Fitflow from "../assets/Fitflow.png";
 import Zapless from "../assets/Zapless.png";
 
@@ -100,7 +100,7 @@ export default function Projects() {
               hover:-translate-y-1 hover:shadow-xl">
         <div className="overflow-hidden">
           <img 
-            src={QuizBee} 
+            src={Internal} 
             alt="Project img" 
             className="
               w-full object-cover
@@ -114,7 +114,7 @@ export default function Projects() {
         <div className="bg-black rounded-b-2xl">
           <div className="px-8 py-6">
             <div className="flex justify-between items-center">
-            <h1 className="text-2xl font-bold">QuizBee</h1>
+            <h1 className="text-2xl font-bold">Internal admin dashboard</h1>
             <div className="flex gap-2">
               <FaReact className="text-[#61DAFB] text-2xl"/>
               <SiTailwindcss className="text-[#38BDF8] text-2xl"/>
@@ -123,23 +123,22 @@ export default function Projects() {
           </div> 
 
           <p className="py-4 leading-relaxed md:hidden">
-              QuizBee is an engaging, interactive quiz application
-              built with React and Tailwind CSS that lets 
-              users...
+              This is startup style internal admin dashboard that 
+              build in react, focused on how small teams 
+              manage their...
           </p>
            <p 
             className="py-4 hidden md:block leading-relaxed">
-              QuizBee is an engaging, interactive quiz application
-              built with React and Tailwind CSS that lets 
-              users test their knowledge across a variety 
-              of categories. The app features a dynamic quiz 
-              flow with real-time...
+              This project focuses on role-based UI, state management,
+              and realistic internal dashboard workflows, similar to 
+              tools used inside small teams and startups. This app is
+              a part of 30dayinternship...
           </p>
           
           <div className="flex gap-5 items-center">
             <div className=" text-blue-600 hover:text-blue-800 hover:cursor-pointer">
               <a 
-                href="https://quiz-bee-1.vercel.app/"
+                href="https://internal-user-management-dashboard.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2">
@@ -151,7 +150,7 @@ export default function Projects() {
 
             <div className="text-gray-400 hover:text-gray-300 hover:cursor-pointer">
             <a 
-                href="https://github.com/itsgauravkumar07/QuizBee" 
+                href="https://github.com/itsgauravkumar07/internal-user-management-dashboard" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2">
