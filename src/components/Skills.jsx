@@ -1,5 +1,5 @@
-import { FaReact, FaHtml5, FaCss3Alt, FaGitAlt } from "react-icons/fa"
-import { SiTailwindcss, SiJavascript, SiNextdotjs, SiVercel, SiTypescript } from "react-icons/si"
+import { FaReact, FaHtml5, FaCss3Alt, FaGitAlt, FaNode } from "react-icons/fa"
+import { SiTailwindcss, SiJavascript, SiNextdotjs, SiVercel, SiTypescript, SiExpress, SiMongodb } from "react-icons/si"
 import Reveal from "./Reveal"
 
 const skills = [
@@ -11,7 +11,10 @@ const skills = [
   { name: "CSS", icon: <FaCss3Alt className="text-blue-400" /> },
   { name: "Tailwind", icon: <SiTailwindcss className="text-sky-400" /> },
   { name: "Git", icon: <FaGitAlt className="text-red-400" /> },
-  { name: "Vercel", icon: <SiVercel className="text-white" /> }
+  { name: "Vercel", icon: <SiVercel className="text-white" /> },
+  { name: "Node.js", icon: <FaNode className="text-green-500" /> },
+  { name: "Express.js", icon: <SiExpress className="text-gray-300" /> },
+  { name: "MongoDB", icon: <SiMongodb className="text-green-600" /> },
 ]
 
 export default function Skills() {
