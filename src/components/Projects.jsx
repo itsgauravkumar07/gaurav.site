@@ -124,15 +124,15 @@ export default function Projects() {
 
           <p className="py-4 leading-relaxed md:hidden">
               This is startup style internal admin dashboard that 
-              build in react, focused on how small teams 
+              build in MERN Stack, focused on how small teams 
               manage their...
           </p>
            <p 
             className="py-4 hidden md:block leading-relaxed">
-              This project focuses on role-based UI, state management,
-              and realistic internal dashboard workflows, similar to 
-              tools used inside small teams and startups. This app is
-              a part of 30dayinternship...
+              An Internal User & Access Management Dashboard built 
+              with the MERN stack that simulates how startups and 
+              organizations manage users, roles, account status, 
+              and approval-based...
           </p>
           
           <div className="flex gap-5 items-center">

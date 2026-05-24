@@ -56,7 +56,7 @@ export default function Hero() {
       </h1>
 
       <p className="text-lg text-gray-400">
-        Frontend Developer | React.js, Next.js, Tailwind CSS
+        Full-Stack Developer | React.js, Tailwind CSS, Express.js, MongoDB, Node.js
       </p>
 
       <p className="text-lg leading-relaxed text-gray-300">
