@@ -60,11 +60,7 @@ export default function Hero() {
       </p>
 
       <p className="text-lg leading-relaxed text-gray-300">
-        Frontend developer specializing in React, open-source contributions,
-        and production-grade web applications. Focused on clean architecture,
-        scalable UI systems, and building software that holds up in real-world
-        use. Driven by a product mindset that balances usability, performance,
-        and long-term scalability.
+        Backend developer specializing in scalable APIs, authentication systems, and production-grade web applications. Focused on clean architecture, database design, and building reliable backend systems that perform in real-world environments. Driven by a product mindset that balances performance, security, maintainability, and long-term scalability.
       </p>
     </div>
   </div>
