@@ -56,7 +56,7 @@ export default function Navbar() {
               Contact
             </a>
             <a 
-              href="https://drive.google.com/file/d/1ScwDtAvgdWjgI4wbOq-SNwQzupOsPwyl/view?usp=drive_link" 
+              href="https://drive.google.com/file/d/1o1FWBvQsMvpV1vW-jFwi__Yxb-bduXfd/view?usp=sharing" 
               target="_blank" 
               rel="noopener noreferrer">
                 Resume
