@@ -138,7 +138,7 @@ export default function Projects() {
           <div className="flex gap-5 items-center">
             <div className=" text-blue-600 hover:text-blue-800 hover:cursor-pointer">
               <a 
-                href="https://internal-user-management-dashboard.vercel.app/"
+                href="https://internal-user-management-dashboard-drab.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2">
